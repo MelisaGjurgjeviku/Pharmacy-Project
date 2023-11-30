@@ -15,6 +15,8 @@ body{
     text-align: right;
     padding-right: 100px;
     padding-top: 15px;;
+    position: fixed;
+    width: 93vw;
     
 
 } 
@@ -90,7 +92,7 @@ nav a:hover{
 }
 
 .karta {
-    width: 350px;
+    width: 315px;
     height: 500px; 
     border: 1px solid #3498db;
     border-radius: 20px;
@@ -103,7 +105,7 @@ nav a:hover{
 
 .karta img {
     height: 300px;
-    padding-left: 15px
+
     }
 
 .karta p {
@@ -145,7 +147,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10px; /* Set a height for the container */
+    height: 10px; 
    
 }
 
@@ -170,3 +172,17 @@ nav a:hover{
     margin-bottom: 0px;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: static;
+}
+
+.proveperhapsire{
+    height: 100px;
+
+}
