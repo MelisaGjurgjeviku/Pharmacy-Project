@@ -2,7 +2,7 @@ body{
     font-family: Poppins;
     font-family: 'Poppins', sans-serif;
 
-     background-color: white;
+     background-color: whitesmoke;
     /* nuk e lojna qet ngjyre po veq e kom qit per mu dallu prej nav baritedhe poashtu llogon e nde=reqi une ja heki prapavine  */
     margin: 0px;
     
@@ -15,6 +15,8 @@ body{
     text-align: right;
     padding-right: 100px;
     padding-top: 15px;;
+    position: fixed;
+    width: 93vw;
     
 
 } 
@@ -37,13 +39,6 @@ nav a:hover{
    padding-top: 15px;
 }
 
-#Baneri{
-
-/* width: fit-content; */
-/* height: 500px;
-background-color: red; */
-
-}
 
 #Baneri .baneriFoto{
     height: 500px; 
@@ -97,7 +92,7 @@ background-color: red; */
 }
 
 .karta {
-    width: 350px;
+    width: 315px;
     height: 500px; 
     border: 1px solid #3498db;
     border-radius: 20px;
@@ -110,7 +105,7 @@ background-color: red; */
 
 .karta img {
     height: 300px;
-    padding-left: 15px
+
     }
 
 .karta p {
@@ -148,15 +143,16 @@ background-color: red; */
     border: none;
 }
  
-.centered-button-container {
+.butoniNeMes {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 10px; /* Set a height for the container */
+    height: 10px; 
+   
    
 }
 
-.centered-button {
+.centered {
     display: inline-block; 
     padding: 10px 20px;
     text-decoration: none;
@@ -177,3 +173,37 @@ background-color: red; */
     margin-bottom: 0px;
 }
 
+footer {
+    background-color: #767676;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: static;
+    margin-top: 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.proveperhapsire{
+    height: 100px;
+
+}
