@@ -1,0 +1,255 @@
+body{
+    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
+
+     background-color: whitesmoke;
+    /* nuk e lojna qet ngjyre po veq e kom qit per mu dallu prej nav baritedhe poashtu llogon e nde=reqi une ja heki prapavine  */
+    margin: 0px;
+    
+}
+
+ nav{
+
+    background-color: whitesmoke;
+    height: 60px;
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 15px;;
+    position: fixed;
+    width: 93vw;
+    
+
+} 
+nav a {
+    display: inline-block;
+    padding-left: 90px;
+    padding-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #767676;
+}
+
+#Logo{
+   max-width: 170px;
+   float: left;
+   padding-left: 90px;
+   padding-top: 15px;
+}
+
+#Baneri .baneriFoto{
+    height: 500px; 
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin-top: 70px;
+    font-weight: lighter;
+}
+
+/* rendi i pare i produkteve */
+
+.catalogu {
+    display: flex;
+    justify-content: space-between;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom:10px ;
+}
+
+.karta {
+    width: 315px;
+    height: 500px; 
+    border: 1px solid #3498db;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    padding-bottom: 100px;
+   
+}
+
+.karta img {
+    height: 300px;
+
+    }
+
+.karta p {
+    margin-top: 10px;
+    text-align: center;
+    color: #767676;
+}
+.catalogu #karta1:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu .karta:hover p{
+    color: whitesmoke;
+}
+
+.catalogu .karta .SpaniIParagrafit{
+    font-weight: bold; 
+    color:#3498db;
+}
+.catalogu .karta:hover .SpaniIParagrafit{
+    font-weight: bold; 
+    color:whitesmoke;
+}
+
+.catalogu #karta2:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu #karta3:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu #karta4:hover{
+    background-color: #3498db;
+    border: none;
+}
+
+
+/* rendi i dyte i produkteve */
+
+.catalogu2 {
+    display: flex;
+    justify-content: space-between;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom:10px ;
+
+}
+
+.karta2 {
+    width: 315px;
+    height: 500px; 
+    border: 1px solid #3498db;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    padding-bottom: 100px;
+   
+}
+
+.karta2 img {
+    height: 300px;
+
+    }
+
+.karta2 p {
+    margin-top: 10px;
+    text-align: center;
+    color: #767676;
+}
+.catalogu2 #karta5:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu2 .karta2:hover p{
+    color: whitesmoke;
+}
+
+.catalogu2 .karta2 .SpaniIParagrafit{
+    font-weight: bold; 
+    color:#3498db;
+}
+.catalogu2 .karta2:hover .SpaniIParagrafit{
+    font-weight: bold; 
+    color:whitesmoke;
+}
+
+.catalogu2 #karta6:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu2 #karta7:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu2 #karta8:hover{
+    background-color: #3498db;
+    border: none;
+}
+
+
+/* rendi i trete i produkteve */
+
+.catalogu3 {
+    display: flex;
+    justify-content: space-between;
+    border-collapse: collapse;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom:50px ;
+}
+
+.karta3 {
+    width: 315px;
+    height: 500px; 
+    border: 1px solid #3498db;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 80px;
+    padding-bottom: 100px;
+   
+}
+
+.karta3 img {
+    height: 300px;
+
+    }
+
+.karta3 p {
+    margin-top: 10px;
+    text-align: center;
+    color: #767676;
+}
+.catalogu3 #karta9:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu3 .karta3:hover p{
+    color: whitesmoke;
+}
+
+.catalogu3 .karta3 .SpaniIParagrafit{
+    font-weight: bold; 
+    color:#3498db;
+}
+.catalogu3 .karta3:hover .SpaniIParagrafit{
+    font-weight: bold; 
+    color:whitesmoke;
+}
+
+.catalogu3 #karta10:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu3 #karta11:hover{
+    background-color: #3498db;
+    border: none;
+}
+.catalogu3 #karta12:hover{
+    background-color: #3498db;
+    border: none;
+}
+
+footer {
+    background-color: #767676;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: static;
+    margin-top: 100px;
+
+}
