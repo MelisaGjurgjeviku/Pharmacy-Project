@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="contactstyle.css">
+    <script defer src="contact.js"></script>
 </head>
 
 <body>
@@ -34,25 +35,25 @@
         </div>
         <div class="contactForm">
             <h3>Send your request</h3>
-            <form >
+            <form id="Form">
                 <div class="input-row">
                     <div class="input-group">
-                        <label>Name:</label>
-                        <input type="text" placeholder="Emri Mbiemri">
+                        <label id="Name">Name:</label>
+                        <input type="text" placeholder="Emri Mbiemri" required>
                     </div>
                     <div class="input-group">
-                        <label>Phone:</label>
-                        <input type="text" placeholder="+383 43 555 666">
+                        <label id="Phone">Phone:</label>
+                        <input type="text" placeholder="+383 43 555 666" required>
                     </div>
                 </div>
                 <div class="input-row">
                     <div class="input-group">
-                        <label>Email:</label>
-                        <input type="text" placeholder="ArtPharm@gmail.com">
+                        <label id="Email">Email:</label>
+                        <input type="text" placeholder="ArtPharm@gmail.com" required>
                     </div>
                     <div class="input-group">
-                        <label>Subject:</label>
-                        <input type="text" placeholder="Product Demo">
+                        <label id="Subject">Subject:</label>
+                        <input type="text" placeholder="Product Demo" required>
                     </div>
                 </div>
 
