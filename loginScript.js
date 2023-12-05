@@ -16,7 +16,7 @@ function validateRegisterForm() {
     var password = document.getElementById('registerPassword').value;
 
     if (username === '' || email === '' || password === '') {
-        alert('Please fill in all fields.');
+        alert('Please fill in all the required fields.');
         return false;
     }
 
