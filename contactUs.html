@@ -9,6 +9,17 @@
 </head>
 
 <body>
+    <nav>
+        <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\Logoja e artpharm-03.png" alt="art pharm" id="Logo" >
+        <a href="pharmacy.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="catalog.html">Catalog</a>
+        <a href="contactUs.html">Contact</a>
+        <a href="LoginRegister.html">
+            <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\login icon  kalter edhe hint-05.png" class="iconaLogin" ></a>
+
+    </nav>
+
     <section>
        <div class="container">
         <div class="contactInfo">
@@ -33,27 +44,31 @@
                 </table>
             </div>
         </div>
-        <div class="contactForm">
+        <div id="contactForm">
             <h3>Send your request</h3>
-            <form id="Form">
+            <form id="Form" onsubmit="return validation()">
                 <div class="input-row">
                     <div class="input-group">
-                        <label id="Name">Name:</label>
-                        <input type="text" placeholder="Emri Mbiemri" required>
+                        <label for="Name">Name:</label>
+                        <input id="Name" type="text" placeholder="Emri Mbiemri" >
+                        
                     </div>
                     <div class="input-group">
-                        <label id="Phone">Phone:</label>
-                        <input type="text" placeholder="+383 43 555 666" required>
+                        <label for="Phone">Phone:</label>
+                        <input id="Phone" type="text" placeholder="+383 43 555 666" >
+                       
                     </div>
                 </div>
                 <div class="input-row">
                     <div class="input-group">
-                        <label id="Email">Email:</label>
-                        <input type="text" placeholder="ArtPharm@gmail.com" required>
+                        <label for="Email">Email:</label>
+                        <input id="Email" type="text" placeholder="ArtPharm@gmail.com">
+                        
                     </div>
                     <div class="input-group">
-                        <label id="Subject">Subject:</label>
-                        <input type="text" placeholder="Product Demo" required>
+                        <label for="Subject">Subject:</label>
+                        <input id="Subject" type="text" placeholder="Product Demo">
+                       
                     </div>
                 </div>
 

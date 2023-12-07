@@ -1,8 +1,13 @@
-const form = document.getElementById('Form');
-const Name = document.getElementById('Name');
-const Phone = document.getElementById('Phone');
-const Email = document.getElementById('Email');
-const Subject= document.getElementById('Subject');
+function validation() {
+    var Name = document.getElementById('Name').value;
+    var Email = document.getElementById('Email').value;
+    var Phone = document.getElementById('Phone').value;
+    var Subject= document.getElementById('Subject').value;
 
-
-
+    if (Name=== '' || Email === '' || Phone === '' || Subject === '') {
+        alert('Please fill in all the required fields.');
+        return false;
+    }
+    
+    return true;
+}
