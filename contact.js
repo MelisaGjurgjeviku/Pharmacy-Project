@@ -4,7 +4,7 @@ function validation() {
     var Phone = document.getElementById('Phone').value;
     var Subject= document.getElementById('Subject').value;
 
-    if (Name=== '' || Email === '' || Phone === '' || Subject === '') {
+    if (Name=== '' || Email === ''||  Phone === '' || Subject === '') {
         alert('Please fill in all the required fields.');
         return false;
     }

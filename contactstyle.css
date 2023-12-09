@@ -14,10 +14,7 @@ nav{
     padding-right: 100px;
     padding-top: 15px;
     position: fixed;
-    width: 93vw;
-    
-    
-
+    width: 100vw;
 } 
 nav a {
     display: inline-block;
