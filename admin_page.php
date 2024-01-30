@@ -1,7 +1,6 @@
 <?php
 
 @include 'config.php';
-
 session_start();
 
 if(!isset($_SESSION['admin_name'])){
@@ -22,9 +21,10 @@ if(!isset($_SESSION['admin_name'])){
 </head>
 
 <body>
-
+   
     <nav>
         <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\Logoja e artpharm-03.png" alt="art pharm" id="Logo" >
+        <a href="index.php">Home</a>
         <a href="aboutUs.html">About Us</a>
         <a href="catalog.html">Catalog</a>
         <a href="contactUs.html">Contact</a>
@@ -32,7 +32,6 @@ if(!isset($_SESSION['admin_name'])){
             <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\login icon  kalter edhe hint-05.png" class="iconaLogin" ></a>
 
     </nav>
-   
    <div class="container">
     <div class="content">
         <h3>Hi, <span>Admin</span></h3>
