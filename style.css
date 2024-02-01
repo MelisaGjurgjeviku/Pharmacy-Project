@@ -91,7 +91,7 @@ nav a:hover{
     text-transform: capitalize;
 }
 .container .content .btn:hover{
-    background: #3498db;
+    background-color: #a3d0e7;
 }
 .form-container{
     min-height: 100vh;

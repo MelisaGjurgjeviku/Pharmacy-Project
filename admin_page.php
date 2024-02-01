@@ -42,7 +42,7 @@ if(!isset($_SESSION['admin_name'])){
         <a href="login_form.php" class="btn">Login</a>
         <a href="register_form.php" class="btn">Register</a>
         <a href="logout.php" class="btn">Logout</a>
-        
+        <a href="dashboard.php" class="btn">Dashboard</a>
     </div>
    </div>
     
