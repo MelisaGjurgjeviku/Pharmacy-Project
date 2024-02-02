@@ -42,16 +42,6 @@ if(isset($_POST['submit'])) {
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-        <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\Logoja e artpharm-03.png" alt="art pharm" id="Logo" >
-        <a href="index.php">Home</a>
-        <a href="aboutUs.html">About Us</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="contactUs.html">Contact</a>
-        <a href="admin_page.php">
-            <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\login icon  kalter edhe hint-05.png" class="iconaLogin" ></a>
-
-    </nav>
     <div class="form-container">
         <form action="" method="post">
             <h3>Register now</h3>
@@ -66,10 +56,16 @@ if(isset($_POST['submit'])) {
             <input type="text" name="email" required placeholder="enter your email">
             <input type="password" name="password" required placeholder="enter your password">
             <input type="password" name="cpassword" required placeholder="confirm your password">
-            <select name="user_type">
+            <select name="user_type" id="" size="1" onchange="window.location.href=this.value;">
                 <option value="user">user</option>
-                <option value="admin">admin</option> 
-            </select>
+                <!-- emaili edhe passwordi per admin page osht veq 1 :
+                bekamirela2@gmail.com
+                pass:abd 
+            NESE E PREK BUTONIN ADMIN TQON DIREKT TE LOGIN
+            NUK PRANON EMAIL TJETER PERVEQ QASAJ QE E CEKA MA NALT-->
+               <option value="http://localhost:3000/admin_page.php">admin</option> 
+
+            </select> 
             <input type="submit" name="submit" value="register now" class="form-btn">
             <p>already have an account? <a href="login_form.php">Login Now</a></p>
 

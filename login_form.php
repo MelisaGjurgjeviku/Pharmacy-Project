@@ -46,16 +46,6 @@ if(isset($_POST['submit'])){
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<nav>
-        <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\Logoja e artpharm-03.png" alt="art pharm" id="Logo" >
-        <a href="index.php">Home</a>
-        <a href="aboutUs.html">About Us</a>
-        <a href="catalog.html">Catalog</a>
-        <a href="contactUs.html">Contact</a>
-        <a href="admin_page.php">
-            <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\login icon  kalter edhe hint-05.png" class="iconaLogin" ></a>
-
-    </nav>
     <div class="form-container">
         <form action="" method="post">
             <h3>Login now</h3>

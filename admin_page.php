@@ -26,7 +26,7 @@ if(!isset($_SESSION['admin_name'])){
         <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\Logoja e artpharm-03.png" alt="art pharm" id="Logo" >
         <a href="index.php">Home</a>
         <a href="aboutUs.html">About Us</a>
-        <a href="catalog.html">Catalog</a>
+        <a href="catalog.php">Catalog</a>
         <a href="contactUs.html">Contact</a>
         <a href="admin_page.php">
             <img src="C:\Users\melis\OneDrive\Documents\GitHub\Pharmacy-Project\assets\login icon  kalter edhe hint-05.png" class="iconaLogin" ></a>
