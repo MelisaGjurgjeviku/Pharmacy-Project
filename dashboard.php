@@ -15,9 +15,7 @@
             <li><img src="assets/dashboard-65-16.png" alt=""> Dashboard</li>
             <li><img src="assets/products.png" alt="">Catalog</li>
             <li><img src="assets/group.png" alt="">Users</li>
-            <li><img src="assets/growth.png" alt="">Income</li>
             <li><img src="assets/information.png" alt="">Help</li>
-            <li><img src="assets/mechanical-gears-.png" alt="">Settings</li>
         </ul>
        <a href="admin_page.php">
            <button type="submit"><img src="assets/backward.png" alt="" class="back-img"> Back</button>
@@ -41,13 +39,85 @@
         </div>
         <div class="content">
             <div class="cards">
-                <div class="box">
-                    <h1>2194</h1>
-                </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>10+</h1>
+                      <h3>Hair <br>
+                         Products</h3>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets/premium-service.png" class="ikona">
+                    </div>
+               </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>10+</h1>
+                      <h3>Gummies</h3>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets/gummy-bear.png" alt="" class="ikona">
+                    </div>
+               </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>30+</h1>
+                      <h3>FaceCare <br>
+                         Products</h3>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets/product.png" alt="" class="ikona">
+                    </div>
+               </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>100+</h1>
+                      <h3>HealthCare <br>
+                        Products</h3>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets/pharmacy.png" alt="" class="ikona">
+                    </div>
+               </div>
             </div>
-            <div class="content-2">
+             <div class="content-2">
+             <h1>Our Recently Added to Catalog</h1>
+              <div class="cards">
+                <div class="card">
+                   <div class="box">
+                      <h1>Hair and Nail Gummies</h1>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets/hair and nail shishja me white space-02.png" alt="" class="ikona">
+                    </div>
+               </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>Apple Cider Vinegar Gummies</h1>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets\apple-cider-me-white-space.png" alt="" class="ikona">
+                    </div>
+               </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>Joint Care Gummies</h1>
+                      
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets\joint care me white space-02.png" alt="" class="ikona">
+                    </div>
+               </div>
+               <div class="card">
+                   <div class="box">
+                      <h1>Fiber Gummies</h1>
                      
-             </div>
+                    </div>
+                    <div class="icon-case">
+                      <img src="assets\fiber shishja me white space-02.png" alt="" class="ikona">
+                    </div>
+               </div>
+              </div>
+            </div>
         </div>
     </div>
     
