@@ -93,6 +93,7 @@
         </div>
         <section id="catalog">
           <p class="text-1">Browse our Recents</p> 
+          <!-- ... -->
         </section>
     </div>
     
