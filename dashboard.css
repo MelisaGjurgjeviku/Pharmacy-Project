@@ -205,4 +205,10 @@ button{
     cursor: pointer;
     border: 1px solid #60a9da;
 }
-
+.text-1{
+    color: rgb(12, 58, 65);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: larger;
+}
